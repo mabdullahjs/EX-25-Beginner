@@ -1,0 +1,33 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #head {
+            background-color: blueviolet;
+            color: white;
+        }
+        .text-center{
+            text-align: center;
+        }
+        .bg-red{
+            background-color: red;
+        }
+        .text-end{
+            text-align: end;
+        }
+        .text-white{
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="head" class="text-center">Hello world!</h1>
+    <h1 class="bg-red text-end text-white">Hello world!</h1>
+    <h1 class="text-center">Hello world!</h1>
+    <h1 class="bg-red text-center text-white">Hello world!</h1>
+
+</body>
+</html> -->
