@@ -1,0 +1,10 @@
+.cont1{
+    border: 2px solid green;
+    font-size: 3em;
+}
+.cont2{
+    border: 2px solid red;
+    
+    font-size: 3rem;
+    /* padding: 30px; */
+}

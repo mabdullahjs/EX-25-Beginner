@@ -1,0 +1,37 @@
+/* fontsize rem */
+/* borderwidth px */
+/* container % */
+
+
+/* relative ka matlb apna parent ki sunta ha */
+/* absolute kisi ki nahi sunta */
+
+
+/* .parent {
+    border: 3px solid black;
+    height: 50px;
+    width: 50%;
+}
+.children {
+    border: 2px solid red;
+    height: 50px;
+    width: 60vw;
+} */
+
+
+div {
+    border: 2px solid black;
+    height: 400px;
+    font-size: 3rem;
+    width: 400px;
+    margin: 50px;
+    padding: 50px;
+    box-sizing: border-box;
+    /* border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    padding-bottom: 20px;
+    padding: 20px 10px 20px 10px;
+    margin: 40px; */
+}
+
