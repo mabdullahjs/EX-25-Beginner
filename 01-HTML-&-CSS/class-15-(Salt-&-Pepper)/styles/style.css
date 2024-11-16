@@ -1,0 +1,23 @@
+html {
+    font-size: 62.5%;
+}
+
+/* red green white black */
+
+:root {
+    --red: #ed1c24;
+    --green: #28a745;
+    --black: #000000;
+    --white: #ffffff;
+    --grey: #0f0f0f;
+}
+
+
+/* navbar started */
+.logo-img{
+    width: 165px;
+}
+.nav-items{
+    font-size: 2rem;
+}
+/* navbar ended */
