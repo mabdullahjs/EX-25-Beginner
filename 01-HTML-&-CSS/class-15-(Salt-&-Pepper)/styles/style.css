@@ -2,6 +2,11 @@ html {
     font-size: 62.5%;
 }
 
+@font-face {
+    font-family: 'futurak';
+    src: url('../fonts/futurak.ttf');
+}
+
 /* red green white black */
 
 :root {
@@ -14,10 +19,79 @@ html {
 
 
 /* navbar started */
-.logo-img{
+.logo-img {
     width: 165px;
 }
-.nav-items{
-    font-size: 2rem;
+
+.nav-items {
+    font-size: 1.6rem;
 }
+
+.franchise-btn {
+    background-color: transparent;
+    border: 1px solid var(--white);
+    color: var(--white);
+    padding: 15px 20px;
+    border-radius: 30px;
+    font-size: 1.6rem;
+    cursor: pointer;
+}
+
+.order-btn {
+    background-color: var(--red);
+    border: none;
+    color: var(--white);
+    padding: 15px 20px;
+    border-radius: 30px;
+    font-size: 1.6rem;
+    cursor: pointer;
+}
+
+.arrow-icon {
+    color: var(--red);
+}
+
+.icon-bg {
+    background-color: var(--white);
+    padding: 5px 7px;
+    margin-left: 2px;
+    border-radius: 20px;
+}
+
 /* navbar ended */
+
+
+/* our-brands started */
+.heading {
+    margin: 30px;
+}
+
+.heading-brand{
+    font-size: 4rem;
+    font-weight: 200;
+}
+.para-brand{
+    font-size: 2rem;
+    font-weight: 200;
+    color: #ffffffb3;
+}
+.futurak-font{
+    font-family: futurak;
+    font-size: 5.2rem;
+}
+.order-brand-btn{
+    background-color: transparent;
+    border: 1px solid #ffffffb3;
+    color: var(--white);
+    padding: 12px 80px;
+    border-radius: 30px;
+    font-size: 1.6rem;
+    cursor: pointer;
+    font-weight: 400;
+}
+
+.brand-image{
+    width: 260px;
+    border-radius: 3px;
+}
+/* our-brands ended */

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,23 +8,71 @@
     <link rel="stylesheet" href="./styles/utility.css">
     <link rel="stylesheet" href="./styles/style.css">
 </head>
+
 <body class="text-white bg-dark">
     <!-- navbar started -->
-     <header class="d-flex justify-around item-center mt-1 flex-wrap">
+    <header class="d-flex justify-around item-center mt-1 flex-wrap">
         <div class="logo">
             <img class="logo-img" src="./assets/logo.webp" alt="logo">
         </div>
-        <nav class="nav-items d-flex gap-3 flex-wrap">
+        <nav class="nav-items d-flex gap-2 flex-wrap item-center">
             <a class="text-none text-white nav-items" href="#">Home</a>
             <a class="text-none text-white nav-items" href="#">About Us</a>
             <a class="text-none text-white nav-items" href="#">Publication</a>
-            <button>Get a Franchise</button>
-            <button>Order Online</button>
+            <button class="franchise-btn">Get a Franchise</button>
+            <button class="order-btn">Order Online <span class="icon-bg"><i
+                        class="fa-solid fa-arrow-right arrow-icon"></i></span></button>
         </nav>
-     </header>
+    </header>
     <!-- navbar ended -->
-     <div class="carousel">
-        <img class="w-100" src="https://static.tossdown.com/images/b09ef44d-de2e-4a81-b34b-2f921866ab0b.webp" alt="carousel-image">
-     </div>
+
+    <!-- carousel started -->
+    <div class="carousel">
+        <img class="w-100" src="https://static.tossdown.com/images/b09ef44d-de2e-4a81-b34b-2f921866ab0b.webp"
+            alt="carousel-image">
+    </div>
+    <!-- carousel ended -->
+
+    <main>
+        <!-- Our Brands started -->
+        <div class="our-brands">
+            <div class="heading text-center">
+                <h1 class="heading-brand">Welcome to <span class="futurak-font">Salt'n Pepper</span> </h1>
+                <h1 class="heading-brand">Restaurants! Our Brands</h1>
+                <p class="text-center mt-1 para-brand">Please click our brands below for further information, reservations or to
+                    order online!
+
+                </p>
+            </div>
+
+            <div class="brand-container d-flex justify-center">
+                <div class="brand-children d-flex flex-column item-center gap-2 m-1">
+                    <div class="brand-img ">
+                        <img class="bg-white p-2  brand-image" src="https://static.tossdown.com/site/8a66dd76-03d2-4b71-8d03-cf045f0248a7.webp" alt="img-1">
+                    </div>
+                    <button class="order-brand-btn">Order Now</button>
+                </div>
+                <div class="brand-children d-flex flex-column item-center gap-2 m-1">
+                    <div class="brand-img ">
+                        <img class="bg-white p-2  brand-image" src="https://static.tossdown.com/site/9d9cb355-ac8c-404e-a608-c28242343cd1.webp" alt="img-1">
+                    </div>
+                    <button class="order-brand-btn">Order Now</button>
+                </div>
+                <div class="brand-children d-flex flex-column item-center gap-2 m-1">
+                    <div class="brand-img ">
+                        <img class="bg-white p-2  brand-image" src="https://static.tossdown.com/site/f9238d0e-7c34-4139-a081-c57b7713628e.webp" alt="img-1">
+                    </div>
+                    <button class="order-brand-btn">Order Now</button>
+                </div>
+            </div>
+        </div>
+        <!-- Our Brands ended -->
+    </main>
+
+
+
+
+    <script src="https://kit.fontawesome.com/9aded8b196.js" crossorigin="anonymous"></script>
 </body>
+
 </html>

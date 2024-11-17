@@ -1,13 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+html {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
 /* 1 rem === 16px === 100% */
 /* 1 rem === 10px === 62.5% */
-
-
 
 
 /* .heading-1{
@@ -97,9 +102,10 @@
 }
 
 
-.text-none{
+.text-none {
     text-decoration: none;
 }
+
 /* sizes */
 
 /* Margin utilities */
@@ -319,6 +325,11 @@
 }
 
 
-.w-100{
+.w-100 {
     width: 100%;
+}
+
+
+.bg-white{
+    background-color: white;
 }
