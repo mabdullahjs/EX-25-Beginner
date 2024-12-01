@@ -94,8 +94,10 @@
 
 
 
-var username;
-console.log(username);
+var username = prompt("enter your name");
+var age = prompt("enter your age");
+
+console.log("my name is " + username + " and my age is " + age)
 
 
 
