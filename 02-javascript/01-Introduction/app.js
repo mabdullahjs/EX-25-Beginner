@@ -94,11 +94,27 @@
 
 
 
-var username = prompt("enter your name");
-var age = prompt("enter your age");
+// var username = prompt("enter your name");
+// var age = prompt("enter your age");
 
-console.log("my name is " + username + " and my age is " + age)
+// console.log("my name is " + username + " and my age is " + age)
 
 
+var age = 76398472984372;
+console.log("Age data type: " ,typeof(age));
 
+var name = "Mubashir 123 House NO 34823 @&%#";
+console.log("Age data type: " ,typeof(age));
+
+var isEligible = false;
+console.log("Age data type: " ,typeof(age));
+
+var roll_No;
+console.log(roll_No);
+
+//Data Types
+// number
+// string
+// boolean
+// undefined
 
