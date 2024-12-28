@@ -7,7 +7,6 @@
 
 // alert("hello world")
 
-// piece of code 
 
 
 
@@ -95,7 +94,7 @@
 
 // function user(names){
 //     console.log('username ==> ' , names);
-
+    
 // }
 // user()
 
@@ -152,7 +151,7 @@
 
 // function hello(username){
 //     console.log("my name is " + username);
-
+    
 // }
 
 // hello("abdullah")
@@ -171,19 +170,19 @@
 
 // if(operator === "+"){
 //     console.log("add hoga" , num1 + num2);
-
+    
 // } else if(operator === "-"){
 //     console.log("minus hoga", num1 - num2);
-
+    
 // } else if(operator === "*"){
 //     console.log("multiply hoga", num1 * num2);
-
+    
 // } else if(operator === "/"){
 //     console.log("divide hoga", num1 / num2);
-
+    
 // } else {
 //     console.log("invalid operator");
-
+    
 // }
 
 
@@ -200,30 +199,13 @@
 // }
 
 
-// var globalUsername = "abc"
-
-// function sum(num1 , num2){ //parameter
-//     console.log(num1 + num2)
-//     var localVariable = "awaami nahi ha"
-//     console.log(globalUsername);
-
-// }
-// console.log(localVariable);
-
-// sum(20 , 30) // argument send krna
 
 
 
 
-// function parentFunc (){
-//     console.log("parent function");
 
-//     function childrenFunc(){
-//         console.log("children");
-//     }
-//     childrenFunc()
-// }
-// parentFunc()
+
+
 
 
 
@@ -231,74 +213,15 @@
 // return
 
 
-// var username = prompt("enter your username");
+
+// var username = prompt("enter your username")
 // console.log(username);
 
+// function total(price1, price2, price3) {
+//     console.log(price1 + price2 + price3);
 
-// function greet(){
-//     return "hello world"
+//     return  price2 + price3
 // }
 
-// var userGreeting = greet()
-// console.log(userGreeting);
-
-
-
-// function sum(num1 , num2) {
-//     return num1 + num2
-// }
-
-// // console.log(sum(10 , 30));
-// console.log( sum(10 , 30));
-
-
-
-// function calculatePercentage (sub1 , sub2 , sub3){
-//     var total = 300;
-//     var obtainedMarks = sub1 + sub2 + sub3
-
-//     var percentage = obtainedMarks / total * 100;
-
-//     return percentage
-// }
-
-
-// var usmanPer = calculatePercentage(100 , 30 ,40)
-// console.log(usmanPer);
-
-
-// DOM
-
-// Document Object model
-
-// function vs method
-
-
-
-
-// var h1 = document.querySelector("#head");
-// var p = document.querySelector("#para");
-
-// console.log(h1.innerHTML);
-// h1.innerHTML = "changed through javascript"
-
-// p.innerHTML = "javascript wala para ha bhai."
-
-
-// var div = document.querySelector(".container")
-
-// div.innerHTML = "<ul><li>home</li><li>about</li><li>contact</li></ul>"
-
-// h1.innerHTML = "Changed through javascript"
-
-
-
-// var head = document.querySelector("#head")
-// head.innerHTML = "changed through js"
-
-// function changeText (){
-//     console.log("hello world");   
-// }
-
-
-
+// var totalAmount = total(20, 40)
+// console.log(totalAmount);
