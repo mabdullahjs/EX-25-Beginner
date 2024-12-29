@@ -88,12 +88,12 @@
 //unshift || start ma add krta ha
 //shift || start sa delete krta ha
 //splice || kahi sa bhi edit delete ya add krwana ho
-//slice
+//slice 
 //split
 //join
-//concat
-//sort
 //reverse
+//concat // rehta ha
+//sort // rehta haa
 //indexof
 
 
@@ -113,15 +113,98 @@
 
 
 
+// var fruits = ["kiwi", "orange", "apple", "banana", "mango", "watermelon", "chiko", "melon", "strawberry"];
+
+// //splice(starting index , kitna delete krna hain)
+// // fruits.splice(5 , 2)
+// // fruits.splice(1, 0, "updated", true, 20)
+
+// // slice ka method array ki shallow copy banadeta ha.
+
+// // var copiedArr = fruits.slice(3 , 7)
+
+
+// console.log(copiedArr);
+
+
+
+// split ka method string ko array ma convert krna ka kaam ata ha
+
+// var username = "Muhammad Abdullah Khan";
+
+// var arr = username.split()
+// console.log(arr);
+
+
+
+
+
+
+// join ka method aik arr ko string ma convert krna ka kaam ata ha
+
+// const username = ["Muhammad" , "Abdullah" , "khan"];
+
+// var str = username.join("z")
+// console.log(str);
+
+
+
+
+
+
+// var arr = [1, 2, 3, 4, 5];
+
+// var reverseArr = arr.reverse();
+// console.log(reverseArr);
+
+
+
+
+
+// aik string ko reverse krdo
+
+// "hello world" "dlrow olleh"
+
+// var str = "hello world";
+// var reverseStr = str.split("").reverse().join("")
+// console.log(converStr);
+
+
+// function reverseStr (str){
+//     return str.split("").reverse().join("")
+// }
+
+// console.log(reverseStr("abdullah"));
+// console.log(reverseStr("faraz"));
+
+
+
+
+// indexof
+
+
+
 var fruits = ["kiwi", "orange", "apple", "banana", "mango", "watermelon", "chiko", "melon", "strawberry"];
 
-//splice(starting index , kitna delete krna hain)
-// fruits.splice(5 , 2)
-// fruits.splice(1, 0, "updated", true, 20)
 
-// slice ka method array ki shallow copy banadeta ha.
-
-// var copiedArr = fruits.slice(3 , 7)
+// var index = fruits.indexOf("adasdsa");
+// console.log(index);
 
 
-console.log(copiedArr);
+var input = document.querySelector("#input");
+
+function getFruit(){
+    console.log("user value ==>" , input.value);
+    const index = fruits.indexOf(input.value);
+    console.log(index);
+
+    if(index === -1){
+        console.log("fruit mujood nahi ha");
+        
+    }else {
+        console.log("fruit mujood ha.");
+        
+    }
+    
+    
+}
