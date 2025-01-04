@@ -137,5 +137,133 @@
 // nested array
 
 
-var arr = [1, 2, 3, [4, 5, 6, [7, 8, 9]]]
-console.log(arr[3][3]);
+// var arr = [1, 2, 3, [4, 5, 6, [7, 8, 9]]]
+// console.log(arr[3][3]);
+
+
+
+
+
+
+
+
+
+// for(var i = 10; i >= 1; i--){
+//     console.log(i)
+// }
+
+
+
+
+
+
+
+// for(var i = 1; i <= 10; i++){
+//     console.log("parent loop" , i)
+//     for (var j = 0; j <= 5; j++) {
+//         console.log("inner loop" , j);
+//     }
+// }
+
+
+
+
+
+// var fruits = ["apple", "banana", "mango", "orange", "grapes", "watermelon", "kiwi", "strawberry", "blueberry", "cherry"];
+
+
+// var div = document.querySelector(".container");
+
+// for(var i = 0; i < fruits.length; i++){
+//     console.log(fruits[i] , i)
+//     // div.innerHTML = div.innerHTML + fruits[i]
+//     div.innerHTML += ``
+// }
+
+
+
+
+// template literals
+
+// var username = "abdullah";
+// var age = 20;
+// var email = "mabdullah2037@gmail.com";
+
+
+// // console.log("your name is " + username + " and your email is  " + email + " and your age is " + age) 
+
+
+// console.log(`your name is ${username} and your age is ${age} and your email is ${email} `);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// var usernames = ["abdullah", "usman", "ali", "ahmed", "farhan", "saad", "zain", "bilal", "hamza", "shahzaib"];
+
+// const list = document.querySelector(".list");
+
+// for(var i = 0; i < usernames.length; i++){
+//     console.log(usernames[i])
+//     list.innerHTML += `<li>${usernames[i]}</li>`
+// }
+
+
+
+
+
+
+
+// while loop
+
+// var i = 11;
+// while(i < 10){
+//     console.log(i);
+//     i++
+// }
+
+// do while loop
+
+
+// var i = 11;
+// do {
+//     console.log(i);
+//     i++
+// } while(i < 10)
+
+
+// var fruits = ["apple", "banana", "mango", "orange", "grapes", "watermelon", "kiwi", "strawberry", "blueberry", "cherry"];
+
+// var div = document.querySelector(".container");
+
+// for (var i = 0; i < fruits.length; i++) {
+//     console.log(fruits[i])
+//     div.innerHTML += `<p>Elemant at index ${i} is ${fruits[i]}</p>`
+// }
+
+
+
+
+// for (var i = 1; i <= 20; i++){
+//     if(i % 2 === 0){
+//         console.log(`${i} is even`); 
+//     }else{
+//         console.log(`${i} is odd`);
+        
+//     }
+// }
+
+
+
