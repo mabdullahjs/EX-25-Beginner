@@ -176,3 +176,54 @@ const masjidImage = "https://en.numista.com/catalogue/photos/pakistan/424-origin
 const chandImage = "https://www.foreigncurrencyandcoin.com/wp-content/uploads/2018/12/products-18814.jpg"
 
 
+// const result = document.querySelector("#result");
+// const img = document.querySelector("#img");
+
+
+// function toss(userVal){
+//     // console.log(userVal);
+//     const randomNumber = Math.ceil(Math.random()*2)
+//     console.log(randomNumber);
+
+//     if(randomNumber === userVal){
+//         console.log("toss jeet gaye");
+//         result.innerHTML = "toss jeet gaye"
+        
+//     }else {
+//         console.log("toss haar gaye");
+//         result.innerHTML = "toss haar gaye"
+        
+//     }
+
+//     if(randomNumber === 1){
+//         img.src = masjidImage
+//     }else {
+//         img.src = chandImage
+//     }
+    
+
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
