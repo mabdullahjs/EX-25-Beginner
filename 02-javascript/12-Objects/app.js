@@ -37,7 +37,7 @@
 //         break
 //     default: 
 //     console.log("default chalaiga");
-        
+
 // }
 
 
@@ -160,7 +160,7 @@
 //     greetUser: function () {
 //         console.log(`hello world ${this.username}`);
 //         console.log(this);
-        
+
 
 //     }
 // }
@@ -219,7 +219,41 @@
 // function checkThis(abc){
 //     console.log(abc.innerHTML);
 //     abc.innerHTML = "changed"
-    
+
+
+// }
+
+
+
+// const users = [
+//     {
+//         id: 1,
+//         title: 'hello'
+//     },
+//     {
+//         id: 2,
+//         title: 'hello'
+//     },
+//     {
+//         id: 3,
+//         title: 'hello'
+//     },
+//     {
+//         id: 4,
+//         title: 'hello'
+//     },
+// ]
+
+
+
+
+
+
+
+// // console.log(users[0].title)
+
+// for(let i = 0; i < users.length; i++){
+//     console.log(users[i].title);
 
 // }
 
@@ -234,16 +268,29 @@
 
 
 
+const users = [
+    { id: 1, name: "Alice Johnson", age: 29, email: "alice.johnson@example.com" },
+    { id: 2, name: "Bob Smith", age: 34, email: "bob.smith@example.com" },
+    { id: 3, name: "Charlie Brown", age: 22, email: "charlie.brown@example.com" },
+    { id: 4, name: "David Lee", age: 41, email: "david.lee@example.com" },
+    { id: 5, name: "Eve Carter", age: 25, email: "eve.carter@example.com" },
+    { id: 6, name: "Frank Miller", age: 30, email: "frank.miller@example.com" },
+    { id: 7, name: "Grace Williams", age: 38, email: "grace.williams@example.com" },
+    { id: 8, name: "Hannah Clark", age: 27, email: "hannah.clark@example.com" },
+    { id: 9, name: "Isaac Davis", age: 32, email: "isaac.davis@example.com" },
+    { id: 10, name: "Jack Martinez", age: 26, email: "jack.martinez@example.com" }
+];
 
 
-
-
-
-
-
-
-
-
-
-
-
+const div = document.querySelector(".container");
+for(let i = 0; i < users.length; i++){
+    console.log(users[i].email);
+    div.innerHTML += `
+    <div class="children">
+    <p>Name: ${users[i].name}</p>
+    <p>Email: ${users[i].email}</p>
+    <p>age: ${users[i].age}</p>
+    </div>
+    `
+    
+}
