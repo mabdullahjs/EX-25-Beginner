@@ -32,11 +32,11 @@ const products = [
 ];
 
 
-// console.log(products);
+// console.log(products[1]);
 const div = document.querySelector("#div");
 
 for (let i = 0; i < products.length; i++) {
-    console.log(products[i]);
+    // console.log(products[i]);
     div.innerHTML += `
      <div class="card" style="width: 18rem;">
             <div class="card-body">
@@ -52,3 +52,139 @@ for (let i = 0; i < products.length; i++) {
 }
 
 
+// const data = [
+//     {
+//         id: 1,
+//         name: 'John',
+//         hobbies: ['Reading', 'Cycling', 'Cooking'],
+//         address: {
+//             street: '123 Main St',
+//             city: 'Springfield',
+//             country: 'USA'
+//         }
+//     },
+//     {
+//         id: 2,
+//         name: 'Alice',
+//         hobbies: ['Painting', 'Traveling'],
+//         address: {
+//             street: '456 Oak St',
+//             city: 'Shelbyville',
+//             country: 'USA'
+//         }
+//     }
+// ];
+
+// console.log(data[1].address.street);
+
+
+
+const complexData = [
+    {
+        id: 1,
+        name: 'John',
+        contact: {
+            email: 'john@example.com',
+            phone: '123-456-7890',
+            socialMedia: {
+                facebook: 'john.fb',
+                twitter: 'john_twtr',
+                instagram: 'john_ig'
+            }
+        },
+        projects: [
+            {
+                projectId: 101,
+                title: 'Project Alpha',
+                tasks: [
+                    {
+                        taskId: 1,
+                        taskName: 'Design the layout',
+                        assignedTo: 'John',
+                        deadline: '2025-03-01',
+                        subTasks: [
+                            {
+                                subTaskId: 1,
+                                description: 'Create wireframe',
+                                status: 'Completed'
+                            },
+                            {
+                                subTaskId: 2,
+                                description: 'Review mockups',
+                                status: 'In Progress'
+                            }
+                        ]
+                    },
+                    {
+                        taskId: 2,
+                        taskName: 'Develop frontend',
+                        assignedTo: 'Alice',
+                        deadline: '2025-04-15',
+                        subTasks: [
+                            {
+                                subTaskId: 1,
+                                description: 'Set up HTML structure',
+                                status: 'Not Started'
+                            },
+                            {
+                                subTaskId: 2,
+                                description: 'Integrate API',
+                                status: 'Not Started'
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        id: 2,
+        name: 'Alice',
+        contact: {
+            email: 'alice@example.com',
+            phone: '987-654-3210',
+            socialMedia: {
+                facebook: 'alice.fb',
+                twitter: 'alice_twtr',
+                instagram: 'alice_ig'
+            }
+        },
+        projects: [
+            {
+                projectId: 102,
+                title: 'Project Beta',
+                tasks: [
+                    {
+                        taskId: 1,
+                        taskName: 'Write backend API',
+                        assignedTo: 'Alice',
+                        deadline: '2025-02-20',
+                        subTasks: [
+                            {
+                                subTaskId: 1,
+                                description: 'Design API endpoints',
+                                status: 'Completed'
+                            },
+                            {
+                                subTaskId: 2,
+                                description: 'Implement API logic',
+                                status: 'In Progress'
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+];
+
+
+console.log(complexData[0].projects[0].tasks[0].subTasks[0].description);
+
+
+// functions && return keyword 
+// document.queryselector
+// Loops
+// array && nested array && array methods (push , splice , indexof , includes, slice)
+// array ko screen pa render krwana
+// object && nested object
