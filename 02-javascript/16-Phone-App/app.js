@@ -205,11 +205,13 @@ var phones = [
 ];
 
 
+var cartItem = []
+
+
 var div = document.querySelector('#container');
 
 for (var i = 0; i < phones.length; i++) {
-    console.log(i);
-    
+
     div.innerHTML += `
     <div class="card bg-dark text-white border border-light" style="width: 18rem;">
             <div class="card-body">
@@ -225,12 +227,63 @@ for (var i = 0; i < phones.length; i++) {
 
 
 
-function addToCart(index){    
-    console.log(phones[index]);
-    
+
+function addToCart(index) {
+    var checkIndex = cartItem.indexOf(phones[index])
+    console.log(checkIndex);
+
+    if (checkIndex === -1) {
+        phones[index].quantity = 1
+        cartItem.push(phones[index]);
+    } else {
+        cartItem[checkIndex].quantity += 1
+    }
+    Swal.fire({
+        title: "Behtreen hogaya!",
+        text: "Maal khareedta rho hamaa paisa deta rho!",
+        icon: "success"
+    });
+
+    console.log(cartItem);
 }
 
+
+function gotocart(){
+    localStorage.setItem('cartItems' , JSON.stringify(cartItem));
+    window.location = "cart.html";
+}
 
 
 // array of object ko screen pa render krwana ha.
 // add to cart btn pa jab click kro to pata chaljaye kis phone pa click kra ha.
+// localstorage revision
+// array of object
+// screen pa rendering
+
+
+
+
+
+// har browser ka undar aik choti si jaga hotu ha.
+// localstorage
+// 5mb tk ka data store
+
+// var users = {
+//     name: 'Abdullah',
+//     email: 'mabdullah2037@gmail.com',
+//     age: 21,
+//     isLoggedIn: true
+// }
+
+// var convertedStr = JSON.stringify(users)
+
+// localStorage.setItem("users" , convertedStr)
+
+
+
+// var getItem = JSON.parse(localStorage.getItem('users'));
+// console.log(getItem);
+
+
+
+
